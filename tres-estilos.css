@@ -1,0 +1,171 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+@media (max-width: 321px) {
+	body {
+	background-size:100% 100%; 
+    background-image:url('assets/B/LATA ABAJO (3).png');
+    background-position:50% 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+  }
+  #imgLogo{
+    height: 30%;
+    max-width: 100%;
+    position:fixed;
+    /*element can move on the screen (only screen, not page)*/
+ 
+    left:50%;top:25%;
+    /*set the top left corner of the element on the center of the screen*/
+ 
+    transform:translate(-50%,-50%);
+}
+    .container3{
+   font-family: 'CoreBold' ;
+   max-height: 100%;
+          max-width: 100%;
+          position:fixed;
+          /*element can move on the screen (only screen, not page)*/
+       
+          left:50%;top:46%;
+          /*set the top left corner of the element on the center of the screen*/
+       
+          transform:translate(-50%,-50%);
+   
+}
+#button{
+  color: white;
+  border-color: white;
+  color: white;
+  font-size: 12px;
+ text-align: center;
+ width: 220px;
+height: 35px;
+
+
+}
+
+}
+@media (min-width: 322px) {
+	body {
+	background-size:100% 100%; 
+    background-image:url('assets/B/LATA ABAJO (3).png');
+    background-position:50% 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+  }
+  #imgLogo{
+    height: 30%;
+    max-width: 100%;
+    position:fixed;
+    /*element can move on the screen (only screen, not page)*/
+ 
+    left:50%;top:25%;
+    /*set the top left corner of the element on the center of the screen*/
+ 
+    transform:translate(-50%,-50%);
+}
+    .container3{
+   font-family: 'CoreBold' ;
+   max-height: 100%;
+          max-width: 100%;
+          position:fixed;
+          /*element can move on the screen (only screen, not page)*/
+       
+          left:50%;top:44%;
+          /*set the top left corner of the element on the center of the screen*/
+       
+          transform:translate(-50%,-50%);
+   
+}
+#button{
+  color: white;
+  border-color: white;
+  color: white;
+  font-size: 14px;
+ text-align: center;
+ width: 250px;
+height: 35px;
+
+
+}
+
+}
+@media (min-width: 601px) {
+  body {
+    background-size:100% 100%; 
+    background-image:url('assets/A/lata arriba-07.png');
+    background-position:50% 50%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  position: absolute;
+}
+	#imgLogo {
+    height: 30%;
+    width: 30%;
+        max-height: 100%;
+        max-width: 100%;
+        position:fixed;
+        /*element can move on the screen (only screen, not page)*/
+     
+        left:50%;top:17%;
+        /*set the top left corner of the element on the center of the screen*/
+     
+        transform:translate(-50%,-50%);}
+
+        .container3{
+          font-family: 'Core45' ;
+          max-height: 100%;
+          max-width: 100%;
+          position:fixed;
+          /*element can move on the screen (only screen, not page)*/
+       
+          left:50%;top:37%;
+          /*set the top left corner of the element on the center of the screen*/
+       
+          transform:translate(-50%,-50%);
+          
+      }
+      #button{
+       color: white;
+       border-color: white;
+       color: white;
+       font-size: 15px;
+      text-align: center;
+       height: 40px;
+       width: 100%;
+       border: 3px solid white;
+     
+   }
+	}
+
+.btn{
+    width: 230px;
+    height: 2%;
+    max-width: 100%;
+      position:fixed;
+      /*element can move on the screen (only screen, not page)*/
+      left:50%;top:30%;
+      /*set the top left corner of the element on the center of the screen*/
+   
+      transform:translate(-50%,-50%);}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border: 3px,solid;
+    border-color: rgb(70, 65, 65);
+    color: white;
+    
+    
+
+  }
+ 
+
+

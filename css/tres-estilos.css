@@ -1,0 +1,113 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+@media (max-width: 600px) {
+	body {
+	background-size:100% 100%; 
+    background-image:url('/assets/B/LATA\ ABAJO\ \(3\).png');
+    background-position:50% 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+	}
+
+}
+@media (min-width: 601px) {
+	body {
+        background-size:100% 100%; 
+        background-image:url('/assets/A/lata\ arriba-07.png');
+        background-position:50% 50%;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+      position: absolute;
+	}
+}
+@media (min-width: 601px) {
+	#imgLogo {
+    height: 27%;
+    width: 27%;
+        max-height: 100%;
+        max-width: 100%;
+        position:fixed;
+        /*element can move on the screen (only screen, not page)*/
+     
+        left:50%;top:15%;
+        /*set the top left corner of the element on the center of the screen*/
+     
+        transform:translate(-50%,-50%);}
+	}
+
+@media (max-width: 600px) {
+    #imgLogo{
+      height: 30%;
+      max-width: 100%;
+      position:fixed;
+      /*element can move on the screen (only screen, not page)*/
+   
+      left:50%;top:25%;
+      /*set the top left corner of the element on the center of the screen*/
+   
+      transform:translate(-50%,-50%);}
+  }
+  
+@media (max-width: 600px) {
+    .container3{
+   font-family: 'CoreBold' ;
+   position: absolute;
+ left: 0;
+ top: 42%;
+ width: 100%;
+ text-align: center;
+ font-size: 18px;
+   
+}
+
+}
+
+@media (min-width: 601px) {
+   .container3{
+       font-family: 'CoreBold' ;
+       position: absolute;
+ left: 0;
+ top: 24%;
+ width: 100%;
+ text-align: center;
+ font-size: 50px;
+       
+   }
+  
+}
+.btn{
+    width: 230px;
+    height: 2%;
+    max-width: 100%;
+      position:fixed;
+      /*element can move on the screen (only screen, not page)*/
+   
+      left:50%;top:30%;
+      /*set the top left corner of the element on the center of the screen*/
+   
+      transform:translate(-50%,-50%);}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border: 3px,solid;
+    border-color: rgb(70, 65, 65);
+    color: white;
+    
+    
+
+  }
+  #button{
+    color: white;
+    border-color: white;
+    color: white;
+    font-size: 13px;
+   text-align: center;
+
+
+}

@@ -1,0 +1,178 @@
+body{
+    overflow-x: hidden;
+
+  }
+  .navbar img {
+      height: 40px;
+      margin: 0px;
+    }
+    
+  .navbar-default .navbar-toggle .icon-bar {
+      background-color: #f00; 
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .navbar-default {
+      background-color:black;
+      background-image: none;
+      background-repeat: no-repeat;
+      
+     }
+    
+  #navbarResponsive{ background-color: black; 
+      padding-right: 0;
+      padding-left: 0;
+      margin-left: 0;
+      margin-right:0;
+  }
+  
+  .menu ul li {
+      padding: 0;
+      float: right;
+  }
+  
+  
+  
+  
+  .wrapper {
+      display: flex;
+      width: 100%;
+      align-items: stretch;
+  }
+  
+  .navbar-nav {
+      margin-left:0px;
+      margin-right:0px;
+    }
+    .navbar-nav > li{
+      margin-left:30px;
+      margin-right:30px;
+    }
+  #sidebarCollapse {
+      width: 40px;
+      height: 40px;
+      background: #f5f5f5;
+  }
+  #sidebarCollapse span {
+      width: 80%;
+      height: 5px;
+      margin: 0 auto;
+      display: block;
+      background: #555;
+      transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+  }#sidebarCollapse span:first-of-type {
+      /* rotate first one */
+      transform: rotate(45deg) translate(2px, 2px);
+  }
+  #sidebarCollapse span:nth-of-type(2) {
+      /* second one is not visible */
+      opacity: 0;
+  }
+  #sidebarCollapse span:last-of-type {
+      /* rotate third one */
+      transform: rotate(-45deg) translate(1px, -1px);
+  }
+  .navbar-brand{
+      z-index: -1;
+  }
+  .sidenav {
+      height: 100%; /* 100% Full-height */
+      width: 0px; /* 0 width - change this with JavaScript */
+      position: left; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0px; /* Stay at the top */
+      left: 0;
+      margin-top: 0px;
+      position: fixed;
+      background-color: black; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 70px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      font-family: 'Core45' ;
+      box-sizing: border-box;
+    }
+    
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 8px 0px 0px 28px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      display: block;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #A9A9A9;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      right: 500px;
+      top: 0px;
+      font-size: 50px;
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%;
+    }
+    
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+      transition: margin-left .5s;
+      padding: 20px;
+    }
+    
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 25px;}
+      .sidenav a {font-size: 18px;}
+      .navbar img {
+        height: 20px;
+        margin: 0px;
+      }
+      }
+    @media (max-width: 321px) {
+      
+      .navbar img {
+        height: 25px;
+        margin: 0px;
+      }
+      }
+  
+        @media (min-width: 322px) {
+          .navbar img {
+            height:30px;
+            margin: 0px;
+              
+          }
+         
+        }
+     
+          @media (min-width: 601px) {
+            .navbar img {
+              height:45px;
+              margin: 0px;
+                
+            }
+           
+          }
+      
+    
+    #close{
+        left: 0px;
+        font-size: 27px;
+        position: absolute;
+      font-size: 28px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    hr.new4 {
+      border: 1px solid white;
+      width: 275px;
+      left: 50px;
+    }

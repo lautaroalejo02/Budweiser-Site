@@ -1,0 +1,26 @@
+html {
+    height: 100%
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body{
+    overflow-x: hidden;
+
+}
+  
+  
+
+@font-face{
+    font-family:'Core45';
+    src: url('assets/tipograf¡as/S-Core\ -\ CoreSansC-75ExtraBold_0.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family:'CoreBold';
+    src: url('assets/tipograf¡as/S-Core\ -\ CoreSansC-65Bold.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}

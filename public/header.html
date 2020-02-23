@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head onload="init()">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Header</title>
+    <link rel="StyleSheet" href='css/bootstrap.min.css' >
+    <link rel="StyleSheet" href='global-styles.css'>
+    <link rel="StyleSheet" href='header-estilos.css'>
+
+
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+   
+</head>
+<body >
+<nav  id="nav" class="navbar navbar-inverse navbar-dark fixed-top">
+      
+          <a class="navbar-brand" href="dos.html">
+                <img src='./assets/Elementos/elementos-04.png' alt="">
+              </a>
+          <button class="navbar-toggler"  type="button"   onclick="openNav()" data-target="#mySidenav"  >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+        </nav>
+          <div id="mySidenav" class="sidenav" >
+             <a id="close"  href="javascript:void(0)"  onclick="closeNav()">MENU</a>
+             <br>
+             <br>
+            <a href="tres.html">COMO PARTICIPAR</a>
+            <hr class="new4">
+            <a href="cinco.html">GANADORES</a>
+            <hr class="new4">
+            <a href="seis.html">BASES Y CONDICIONES</a>
+                </div>
+              </body>
+                
+        
+    <script>
+     
+      function openNav(){
+      document.getElementById("mySidenav").style.width = "310px";
+
+      }
+      function closeNav(){
+        document.getElementById("mySidenav").style.width = "0px";
+      }
+      $('body').click(function(){
+  document.getElementById("mySidenav").style.width = "0px";
+
+});
+$('nav').click(function(event){
+        event.stopPropagation();
+      });
+   
+
+$( document ).ready(function() {
+    $("#wrapper").toggleClass("toggle");
+});
+    </script>
+    </html>
